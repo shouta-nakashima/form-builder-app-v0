@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Field } from '../page'
+import { Field } from '@/app/page'
 
 type AddFieldFormProps = {
   addField: (field: Omit<Field, 'id'>) => void

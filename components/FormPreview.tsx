@@ -1,4 +1,4 @@
-import { Field } from '../page'
+import { Field } from '@/app/page'
 
 type FormPreviewProps = {
   fields: Field[]
